@@ -49,4 +49,4 @@ This project is a demonstration of how to use Appium with TestNG to automate tes
    git clone https://github.com/Yassmin-gamal/Calculator-Tests.git
    cd Calculator-Tests
 
-
+### Configure the Project
