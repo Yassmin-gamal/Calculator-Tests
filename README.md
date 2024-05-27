@@ -124,6 +124,7 @@
 
 
 - Run 5 tests in parallel as specified in the testng.xml file.
-
-  ![Screenshot 2024-05-27 205839](https://github.com/Yassmin-gamal/Calculator-Tests/assets/66153260/c8671d87-4bad-4467-b3d6-c42b2865703a)
+  
   ![Screenshot 2024-05-27 205900](https://github.com/Yassmin-gamal/Calculator-Tests/assets/66153260/fb828dbb-c795-489e-9c15-a97a7abd567f)
+  ![Screenshot 2024-05-27 205839](https://github.com/Yassmin-gamal/Calculator-Tests/assets/66153260/c8671d87-4bad-4467-b3d6-c42b2865703a)
+ 
