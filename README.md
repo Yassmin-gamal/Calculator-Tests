@@ -1,6 +1,7 @@
 # Calculator-Tests
 
-This project is a demonstration of how to use Appium with TestNG to automate testing of a simple Android Calculator application. The tests are written in Java and organized using the TestNG framework.
+- This project is a demonstration of how to use Appium with TestNG to automate testing of a simple Android Calculator application. The tests are written in Java and organized using the TestNG framework.
+  - In this project, working with Selenium Java version 3.141.59, Maven version 3.0.0-M5, TestNG version 7.8.0,Appium java-client version 7.0.0 all in the Eclipse IDE in pom.xml file
 
 ## Table of Contents
 - [Prerequisites](#prerequisites)
@@ -13,8 +14,8 @@ This project is a demonstration of how to use Appium with TestNG to automate tes
   - [Using IDE](#using-ide)
   - [Using Maven](#using-maven)
 - [Project Structure](#project-structure)
-- [Writing Tests](#writing-tests)
-- [License](#license)
+- [TestNG Reports](#TestNG-Reports)
+ 
 
 
 ## Prerequisites
@@ -44,10 +45,74 @@ This project is a demonstration of how to use Appium with TestNG to automate tes
 3. Connect your physical Android device or start an Android Virtual Device (AVD) for testing.
 
 ### Clone the Repositor
-      ```sh
-      git clone https://github.com/Yassmin-gamal/Calculator-Tests.git
-      cd Calculator-Tests
+1. Clone:
 
-### Install Android Studio
+   ```sh
+   git clone https://github.com/Yassmin-gamal/Calculator-Tests.git
+   cd Calculator-Tests
 
+### Configure the Project
+1. Open the project in your preferred IDE (e.g., IntelliJ IDEA, Eclipse). ( i use Eclipse)
+2. Ensure the testng.xml file is properly configured.
+3. Update the BaseTest.java file with the correct path to your Calculator APK and device details.
+   ```java
+        DesiredCapabilities caps = new DesiredCapabilities();
+        caps.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
+        caps.setCapability(MobileCapabilityType.DEVICE_NAME, "SM A145F"); 
+        caps.setCapability(MobileCapabilityType.UDID, "RK8W5048BXB");
+        caps.setCapability( MobileCapabilityType.PLATFORM_VERSION, "13.0");
+        caps.setCapability(MobileCapabilityType.AUTOMATION_NAME, "UiAutomator2");
+        
+        caps.setCapability("appPackage","com.sec.android.app.popupcalculator");
+	      caps.setCapability("appActivity","com.sec.android.app.popupcalculator.Calculator");
+
+### Running the Tests
+1. Using IDE
+   Open testng.xml in your IDE.
+   Right-click on testng.xml and select "Run 'testng.xml'".
+
+2. Using Maven
+   ```sh
+   mvn test
+
+### Project Structure
+
+ encapsulate the elements in a separate class to improve the maintainability and readability of my code. This is often referred to as the Page Object Model (POM) pattern. 
  
+1. POM Pattern of my Project :
+   ```css
+   Calculator-Tests
+   ├── pom.xml
+   ├── testng.xml
+   ├── src
+   │   ├── main
+   │   │   └── java
+   │   │       └── Android
+   │   │           └── App
+   │   │       
+   │   └── test
+   │       └── java
+   │           └── Android
+   │               └── APP
+   │                   ├── tests
+   │                   │   ├── AdditionTest.java
+   │                   │   ├── SubtractionTest.java
+   │                   │   └── MultiplicationTest.java
+   │                   │   └── DivisionTest.java
+   │                   │   └── PercentageTest.java
+   │                   └── pages
+   │                   │      └── CalculatorPage.java
+   │                   │    
+   │                   └── utils
+   │                       └── BaseTest.java
+   └── README.md
+
+
+### TestNG Reports
+
+- - testing the basic operation involves opening App , Add to numbers , check result
+
+  ![25](https://github.com/Yassmin-gamal/Calculator-Tests/assets/66153260/41086a8c-37b4-4d6a-95f7-69bc891fee06)
+  ![26](https://github.com/Yassmin-gamal/Calculator-Tests/assets/66153260/be13fbc3-df18-4a17-8c34-0822b7ec5ac3)
+
+
