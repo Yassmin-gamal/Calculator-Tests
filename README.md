@@ -1,8 +1,9 @@
 # Calculator-Tests
 
 - This project demonstrates how to use Appium with TestNG to automate the testing of a simple Android Calculator application. The tests are written in Java and organized using the TestNG framework.
-  -- The project uses Selenium Java version 3.141.59, Maven version 3.0.0-M5, TestNG version 7.8.0, and Appium Java-client version 7.0.0, all managed via the pom.xml file in Eclipse IDE.
-  -- It runs on a physical device: a Samsung SM A145F with Android version 13.
+-   The project uses Selenium Java version 3.141.59, Maven version 3.0.0-M5, TestNG version 7.8.0, and Appium Java-client version 7.0.0, all managed via the pom.xml file in Eclipse IDE.
+-       It runs on a physical device: a Samsung SM A145F with Android version 13.
+
 
 ## Table of Contents
 - [Prerequisites](#prerequisites)
