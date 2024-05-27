@@ -1,7 +1,10 @@
 # Calculator-Tests
 
-- This project is a demonstration of how to use Appium with TestNG to automate testing of a simple Android Calculator application. The tests are written in Java and organized using the TestNG framework.
-  - In this project, working with Selenium Java version 3.141.59, Maven version 3.0.0-M5, TestNG version 7.8.0,Appium java-client version 7.0.0 all in the Eclipse IDE in pom.xml file
+- This project demonstrates how to use Appium with TestNG to automate the testing of a simple Android Calculator application. The tests are written in Java and organized using the TestNG framework.
+- The project uses Selenium Java version 3.141.59, Maven version 3.0.0-M5, TestNG version 7.8.0, and Appium Java-client version 7.0.0, all managed via the pom.xml file in Eclipse IDE.
+- It runs on a physical device: a Samsung SM A145F with Android version 13.0 .
+- TestNG is used to run 5 tests in parallel as specified in the testng.xml file.
+
 
 ## Table of Contents
 - [Prerequisites](#prerequisites)
@@ -55,7 +58,9 @@
 1. Open the project in your preferred IDE (e.g., IntelliJ IDEA, Eclipse). ( i use Eclipse)
 2. Ensure the testng.xml file is properly configured.
 3. Update the BaseTest.java file with the correct path to your Calculator APK and device details.
-   ```java
+   
+   ```java(Java)
+   
         DesiredCapabilities caps = new DesiredCapabilities();
         caps.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
         caps.setCapability(MobileCapabilityType.DEVICE_NAME, "SM A145F"); 
@@ -63,19 +68,21 @@
         caps.setCapability( MobileCapabilityType.PLATFORM_VERSION, "13.0");
         caps.setCapability(MobileCapabilityType.AUTOMATION_NAME, "UiAutomator2");
         
-        caps.setCapability("appPackage","com.sec.android.app.popupcalculator");
-	      caps.setCapability("appActivity","com.sec.android.app.popupcalculator.Calculator");
+   caps.setCapability("appPackage","com.sec.android.app.popupcalculator");
+   caps.setCapability("appActivity","com.sec.android.app.popupcalculator.Calculator");
 
-### Running the Tests
-1. Using IDE
+## Running the Tests
+
+### Using IDE
    Open testng.xml in your IDE.
    Right-click on testng.xml and select "Run 'testng.xml'".
 
-2. Using Maven
+### Using Maven
+1. Maven Test
    ```sh
    mvn test
 
-### Project Structure
+## Project Structure
 
  encapsulate the elements in a separate class to improve the maintainability and readability of my code. This is often referred to as the Page Object Model (POM) pattern. 
  
@@ -108,7 +115,7 @@
    └── README.md
 
 
-### TestNG Reports
+## TestNG Reports
 
 - testing the basic operation involves opening App , Add to numbers , check result
 
