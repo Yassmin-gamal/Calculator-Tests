@@ -68,16 +68,18 @@
         caps.setCapability("appPackage","com.sec.android.app.popupcalculator");
 	caps.setCapability("appActivity","com.sec.android.app.popupcalculator.Calculator");
 
-### Running the Tests
-1. Using IDE
+## Running the Tests
+
+### Using IDE
    Open testng.xml in your IDE.
    Right-click on testng.xml and select "Run 'testng.xml'".
 
-2. Using Maven
+### Using Maven
+1. Maven Test
    ```sh
    mvn test
 
-### Project Structure
+## Project Structure
 
  encapsulate the elements in a separate class to improve the maintainability and readability of my code. This is often referred to as the Page Object Model (POM) pattern. 
  
@@ -110,7 +112,7 @@
    └── README.md
 
 
-### TestNG Reports
+## TestNG Reports
 
 - testing the basic operation involves opening App , Add to numbers , check result
 
