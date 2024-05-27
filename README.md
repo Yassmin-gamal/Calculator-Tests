@@ -57,6 +57,7 @@
 3. Update the BaseTest.java file with the correct path to your Calculator APK and device details.
    
    ```java(Java)
+   
         DesiredCapabilities caps = new DesiredCapabilities();
         caps.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
         caps.setCapability(MobileCapabilityType.DEVICE_NAME, "SM A145F"); 
