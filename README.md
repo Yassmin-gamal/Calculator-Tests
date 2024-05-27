@@ -67,8 +67,8 @@
         caps.setCapability( MobileCapabilityType.PLATFORM_VERSION, "13.0");
         caps.setCapability(MobileCapabilityType.AUTOMATION_NAME, "UiAutomator2");
         
-          caps.setCapability("appPackage","com.sec.android.app.popupcalculator");
-	  caps.setCapability("appActivity","com.sec.android.app.popupcalculator.Calculator");
+   caps.setCapability("appPackage","com.sec.android.app.popupcalculator");
+   caps.setCapability("appActivity","com.sec.android.app.popupcalculator.Calculator");
 
 ## Running the Tests
 
