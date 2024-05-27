@@ -44,9 +44,10 @@ This project is a demonstration of how to use Appium with TestNG to automate tes
 3. Connect your physical Android device or start an Android Virtual Device (AVD) for testing.
 
 ### Clone the Repositor
+      ```sh
+      git clone https://github.com/Yassmin-gamal/Calculator-Tests.git
+      cd Calculator-Tests
 
-   ```sh
-   git clone https://github.com/Yassmin-gamal/Calculator-Tests.git
-   cd Calculator-Tests
+### Install Android Studio
 
-### Configure the Project
+ 
