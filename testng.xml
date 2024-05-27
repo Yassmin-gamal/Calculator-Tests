@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ 
+<suite name="First">
+  <test name="Default test" verbose="2">
+    <classes>
+      <class name="Android.APP.tests.AdditionTest"/>
+       <class name="Android.APP.tests.MultiplicationTest"/>
+       <class name="Android.APP.tests.DivisionTest"/>
+       <class name="Android.APP.tests.PercentageTest"/>
+       <class name="Android.APP.tests.SubtractionTest"/>
+    </classes>
+  </test>  
+</suite>  

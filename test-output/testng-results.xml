@@ -1,25 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-27T17:42:59 EEST" name="Default suite" finished-at="2024-05-27T17:43:19 EEST" duration-ms="19893">
+  <suite started-at="2024-05-27T20:53:46 EEST" name="First" finished-at="2024-05-27T20:55:08 EEST" duration-ms="81726">
     <groups>
     </groups>
-    <test started-at="2024-05-27T17:42:59 EEST" name="Default test" finished-at="2024-05-27T17:43:19 EEST" duration-ms="19893">
-      <class name="Android.APP.tests.AdditionTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Android.APP.tests.AdditionTest@59662a0b]" started-at="2024-05-27T17:42:59 EEST" name="setUp" finished-at="2024-05-27T17:43:15 EEST" duration-ms="15910" status="PASS">
+    <test started-at="2024-05-27T20:53:46 EEST" name="Default test" finished-at="2024-05-27T20:55:08 EEST" duration-ms="81726">
+      <class name="Android.APP.tests.DivisionTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Android.APP.tests.DivisionTest@49139829]" started-at="2024-05-27T20:54:20 EEST" name="setUp" finished-at="2024-05-27T20:54:32 EEST" duration-ms="11423" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testAddition()[pri:0, instance:Android.APP.tests.AdditionTest@59662a0b]" started-at="2024-05-27T17:43:15 EEST" name="testAddition" finished-at="2024-05-27T17:43:18 EEST" duration-ms="3116" status="PASS">
+        <test-method signature="testDivision()[pri:0, instance:Android.APP.tests.DivisionTest@49139829]" started-at="2024-05-27T20:54:32 EEST" name="testDivision" finished-at="2024-05-27T20:54:35 EEST" duration-ms="3307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivision -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Android.APP.tests.DivisionTest@49139829]" started-at="2024-05-27T20:54:35 EEST" name="tearDown" finished-at="2024-05-27T20:54:36 EEST" duration-ms="679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Android.APP.tests.DivisionTest -->
+      <class name="Android.APP.tests.AdditionTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Android.APP.tests.AdditionTest@57a3af25]" started-at="2024-05-27T20:53:46 EEST" name="setUp" finished-at="2024-05-27T20:54:01 EEST" duration-ms="14918" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddition()[pri:0, instance:Android.APP.tests.AdditionTest@57a3af25]" started-at="2024-05-27T20:54:01 EEST" name="testAddition" finished-at="2024-05-27T20:54:04 EEST" duration-ms="3200" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddition -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Android.APP.tests.AdditionTest@59662a0b]" started-at="2024-05-27T17:43:18 EEST" name="tearDown" finished-at="2024-05-27T17:43:19 EEST" duration-ms="799" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Android.APP.tests.AdditionTest@57a3af25]" started-at="2024-05-27T20:54:04 EEST" name="tearDown" finished-at="2024-05-27T20:54:05 EEST" duration-ms="913" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- Android.APP.tests.AdditionTest -->
+      <class name="Android.APP.tests.MultiplicationTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Android.APP.tests.MultiplicationTest@223191a6]" started-at="2024-05-27T20:54:05 EEST" name="setUp" finished-at="2024-05-27T20:54:16 EEST" duration-ms="11476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testMultiplication()[pri:0, instance:Android.APP.tests.MultiplicationTest@223191a6]" started-at="2024-05-27T20:54:16 EEST" name="testMultiplication" finished-at="2024-05-27T20:54:20 EEST" duration-ms="3341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiplication -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Android.APP.tests.MultiplicationTest@223191a6]" started-at="2024-05-27T20:54:20 EEST" name="tearDown" finished-at="2024-05-27T20:54:20 EEST" duration-ms="770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Android.APP.tests.MultiplicationTest -->
+      <class name="Android.APP.tests.PercentageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Android.APP.tests.PercentageTest@9597028]" started-at="2024-05-27T20:54:36 EEST" name="setUp" finished-at="2024-05-27T20:54:47 EEST" duration-ms="11537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testPercentage()[pri:0, instance:Android.APP.tests.PercentageTest@9597028]" started-at="2024-05-27T20:54:47 EEST" name="testPercentage" finished-at="2024-05-27T20:54:51 EEST" duration-ms="3901" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPercentage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Android.APP.tests.PercentageTest@9597028]" started-at="2024-05-27T20:54:51 EEST" name="tearDown" finished-at="2024-05-27T20:54:52 EEST" duration-ms="714" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Android.APP.tests.PercentageTest -->
+      <class name="Android.APP.tests.SubtractionTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Android.APP.tests.SubtractionTest@6069db50]" started-at="2024-05-27T20:54:52 EEST" name="setUp" finished-at="2024-05-27T20:55:04 EEST" duration-ms="11557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSubtraction()[pri:0, instance:Android.APP.tests.SubtractionTest@6069db50]" started-at="2024-05-27T20:55:04 EEST" name="testSubtraction" finished-at="2024-05-27T20:55:07 EEST" duration-ms="3300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubtraction -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Android.APP.tests.SubtractionTest@6069db50]" started-at="2024-05-27T20:55:07 EEST" name="tearDown" finished-at="2024-05-27T20:55:08 EEST" duration-ms="625" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Android.APP.tests.SubtractionTest -->
     </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+  </suite> <!-- First -->
 </testng-results>
