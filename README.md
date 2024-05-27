@@ -4,6 +4,8 @@
 - The project uses Selenium Java version 3.141.59, Maven version 3.0.0-M5, TestNG version 7.8.0, and Appium Java-client version 7.0.0, all managed via the pom.xml file in Eclipse IDE.
 - It runs on a physical device: a Samsung SM A145F with Android version 13.0 .
 - TestNG is used to run 5 tests in parallel as specified in the testng.xml file.
+- Using the Page Object Model (POM) pattern . First, I implement BaseTest to establish all the desired capabilities for my device and app. Next, I create CalculatorPage to incorporate all the necessary elements for my App. Finally, I develop automated test cases to verify basic functionalities like addition, subtraction, multiplication, division, and percentage.
+  
 
 
 ## Table of Contents
