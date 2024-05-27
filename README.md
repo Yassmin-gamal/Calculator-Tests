@@ -110,7 +110,7 @@
 
 ### TestNG Reports
 
-- - testing the basic operation involves opening App , Add to numbers , check result
+- testing the basic operation involves opening App , Add to numbers , check result
 
   ![25](https://github.com/Yassmin-gamal/Calculator-Tests/assets/66153260/41086a8c-37b4-4d6a-95f7-69bc891fee06)
   ![26](https://github.com/Yassmin-gamal/Calculator-Tests/assets/66153260/be13fbc3-df18-4a17-8c34-0822b7ec5ac3)
