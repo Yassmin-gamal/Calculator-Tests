@@ -39,6 +39,9 @@ This project is a demonstration of how to use Appium with TestNG to automate tes
    appium
 
 ### Install Android Studio
+1. Download and install Android Studio from the [official website](https://developer.android.com/studio)
+2. Configure the Android SDK and ensure you have the necessary platform tools and SDKs installed.
+3. Connect your physical Android device or start an Android Virtual Device (AVD) for testing.
 
 ### Clone the Repositor
 
