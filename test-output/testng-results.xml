@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-27T16:18:05 EEST" name="Default suite" finished-at="2024-05-27T16:18:22 EEST" duration-ms="16651">
+    <groups>
+    </groups>
+    <test started-at="2024-05-27T16:18:05 EEST" name="Default test" finished-at="2024-05-27T16:18:22 EEST" duration-ms="16651">
+      <class name="Android.APP.tests.PercentageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Android.APP.tests.PercentageTest@59662a0b]" started-at="2024-05-27T16:18:05 EEST" name="setUp" finished-at="2024-05-27T16:18:17 EEST" duration-ms="11892" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testPercentage()[pri:0, instance:Android.APP.tests.PercentageTest@59662a0b]" started-at="2024-05-27T16:18:17 EEST" name="testPercentage" finished-at="2024-05-27T16:18:21 EEST" duration-ms="4026" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPercentage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Android.APP.tests.PercentageTest@59662a0b]" started-at="2024-05-27T16:18:21 EEST" name="tearDown" finished-at="2024-05-27T16:18:22 EEST" duration-ms="691" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Android.APP.tests.PercentageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
