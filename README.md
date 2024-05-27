@@ -23,7 +23,7 @@
 - [Java Development Kit (JDK)](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) (my version  17.0.8)
 - [Maven](https://maven.apache.org/install.html)  
 - [Android Studio](https://developer.android.com/studio)
-- [Appium](http://appium.io/)(my version 7.0.0)
+- [Appium](http://appium.io/) (my version 7.0.0)
 
 
 ## Setup
