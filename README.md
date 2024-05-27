@@ -55,7 +55,8 @@
 1. Open the project in your preferred IDE (e.g., IntelliJ IDEA, Eclipse). ( i use Eclipse)
 2. Ensure the testng.xml file is properly configured.
 3. Update the BaseTest.java file with the correct path to your Calculator APK and device details.
-   ```java
+   
+   ```java(Java)
         DesiredCapabilities caps = new DesiredCapabilities();
         caps.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
         caps.setCapability(MobileCapabilityType.DEVICE_NAME, "SM A145F"); 
@@ -64,7 +65,7 @@
         caps.setCapability(MobileCapabilityType.AUTOMATION_NAME, "UiAutomator2");
         
         caps.setCapability("appPackage","com.sec.android.app.popupcalculator");
-	      caps.setCapability("appActivity","com.sec.android.app.popupcalculator.Calculator");
+	caps.setCapability("appActivity","com.sec.android.app.popupcalculator.Calculator");
 
 ### Running the Tests
 1. Using IDE
